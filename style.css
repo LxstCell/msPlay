@@ -1,7 +1,6 @@
 body {
 
  background-color: aqua;
-  /* Smoothly transition the background color */
   animation: bg_anim ease 8s infinite;
 }
 
