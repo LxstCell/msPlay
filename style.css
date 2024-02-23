@@ -1,8 +1,25 @@
 body {
-  background-color: lightgreen;
- 
+
+ background-color: aqua;
   /* Smoothly transition the background color */
-  transition: background-color .5s;
+  animation: bg_anim ease 8s infinite;
+}
+
+@keyframes bg_anim {
+  0% {
+    background-color: aqua;
+  }
+  33% {
+    background-color: lime;
+  }
+  
+  66% {
+    background-color: violet;
+  }
+  
+  100% {
+    background-image: red;
+  }
 }
  
 /* Using flex with the column direction to
