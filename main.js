@@ -35,6 +35,18 @@ let track_list = [
     artist: "5Five",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvhexrUbn9_jpvIKJ09IKSm0jH8DsPYUZY2g&usqp=CAU",
     path: "Music/music1.mp3"
+  },
+  {
+    name: "Daddy's Home",
+    artist: "Usher",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Hey_Daddy_%28Daddy%27s_Home%29.jpg/220px-Hey_Daddy_%28Daddy%27s_Home%29.jpg",
+    path: "Music/music2.mp3"
+  },
+  {
+    name: "One of the Girls",
+    artist: "The Weekend",
+    image: "https://i.scdn.co/image/ab67616d0000b273b0dd6a5cd1dec96c4119c262",
+    path: "Music/music3.mp3"
   }
 ];
 
@@ -63,10 +75,11 @@ function loadTrack(track_index) {
   // using the 'ended' event
   curr_track.addEventListener("ended", nextTrack);
  
-  
+  // Apply a random background color
+ 
 }
  
-
+ 
 // Function to reset all values to their default
 function resetValues() {
   curr_time.textContent = "00:00";
