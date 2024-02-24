@@ -29,6 +29,12 @@ let track_list = [
     artist: "5Five",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvhexrUbn9_jpvIKJ09IKSm0jH8DsPYUZY2g&usqp=CAU",
     path: "Music/music0.mp3"
+  },
+  {
+    name: "Me & My Brother(Bass)",
+    artist: "5Five",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvhexrUbn9_jpvIKJ09IKSm0jH8DsPYUZY2g&usqp=CAU",
+    path: "Music/music1.mp3"
   }
 ];
 
